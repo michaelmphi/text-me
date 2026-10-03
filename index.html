@@ -3,9 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="refresh" content="0; url=sms:+16475296561">
   <title>Text Me</title>
-
   <style>
     body {
       margin: 0;
@@ -15,33 +13,41 @@
       justify-content: center;
       font-family: Arial, sans-serif;
       background: #ffffff;
-      color: #1a1a1a;
       text-align: center;
+    }
+
+    .container {
+      padding: 30px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 17px;
+      margin-bottom: 25px;
     }
 
     a {
       display: inline-block;
-      padding: 14px 28px;
+      padding: 16px 32px;
       background: #0066ff;
       color: white;
       text-decoration: none;
-      border-radius: 8px;
+      border-radius: 10px;
+      font-size: 20px;
       font-weight: bold;
-      font-size: 18px;
     }
   </style>
 </head>
 
 <body>
-
-  <div>
-    <p>Opening your messages...</p>
-    <a href="sms:+16475296561">📲 Tap here to text me</a>
+  <div class="container">
+    <h1>Need a quote?</h1>
+    <p>Tap below to send me a text.</p>
+    <a href="sms:+16475296561">📲 Text Me</a>
   </div>
-
-  <script>
-    window.location.href = "sms:+16475296561";
-  </script>
-
 </body>
 </html>
